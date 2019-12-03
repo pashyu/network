@@ -24,7 +24,7 @@
 
 atomic_t num_pkts = ATOMIC_INIT(0);
 
-/* Most of this is shamelessly stolen from the linux kernel log routines */
+/* Most of this is shamelessly stolen from the linux kernel log routines */      //this is a test
 #define DBG_LOG_BUF_LEN	(16384)
 //#define DBG_LOG_BUF_LEN (1 << CONFIG_LOG_BUF_SHIFT)
 

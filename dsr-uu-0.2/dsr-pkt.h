@@ -23,7 +23,7 @@
 
 /* Internal representation of a packet. For portability */
 struct dsr_pkt {
-	struct in_addr src;	/* IP level data */
+	struct in_addr src;	/* IP level data */ 
 	struct in_addr dst;
 	struct in_addr nxt_hop;
 	struct in_addr prv_hop;
@@ -77,7 +77,7 @@ struct dsr_pkt {
 	struct sk_buff *skb;
 #endif
 
-};
+};       //定义dsr packet结构
 
 /* Flags: */
 #define PKT_PROMISC_RECV 0x01
